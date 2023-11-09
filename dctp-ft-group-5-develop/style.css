@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 659px;
+  background-image: url(div.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.menu-icon{
+  margin-left: 102px;
+  color: #524724;
+}
+.logo{
+  margin-left: 66px;
+  color: rgba(51, 39, 0, 0.85);
+  font-family: helvetica Neue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+.header-navigation{
+  margin-left: 390px;
+}
+.header-navigation a{
+  margin-right: 35px;
+  text-decoration: none;
+  color: rgba(138, 106, 0, 0.95);
+  font-family: helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  transition: 0.1s;
+}
+.header-navigation a:hover{
+  color: rgba(255, 196, 4, 0.9);
+  text-decoration: underline;
+}
+.sign-up{
+  width: 107px;
+  height: 26px;
+  border-radius: 5px;
+  border: none;
+  background: #ffcc54;
+  box-shadow: 0px 0.5px 10px 0px rgba(51, 39, 0, 0.50) ;
+  align-items: center;
+  text-align: center;
+  color: #524724;
+}
+.sign-up:hover{
+  background-color: #524724;
+  color: #ffcc54;
+}
+.education{
+  width: 568px;
+  height: 87px;
+  flex-shrink: 0;
+  color: rgba(51, 39, 0, 0.90);
+  font-family: Helvetica Neue;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 100px;
+  margin-right: 772px;
+  padding-top: 190px;
+ 
+  }
+  .education span{
+  color: #DE6101;
+  font-family: Helvetica Neue;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.legacy{
+  width: 422px;
+  height: 88px;
+  margin-left: 100px;
+  padding-top: 60px;
+  color: rgba(51, 39, 0, 0.90);
+  font-family: Helvetica Neue;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.legacy span{
+  color: #8A6A00;
+ }
+ .write-up{
+  width: 380px;
+  height: 85px;
+  margin-left: 100px;
+  padding-top: 60px;
+  color:rgba(51, 39, 0, 0.70);;
+ }
+ .google-play{
+    width: 271px;
+    height: 72px;
+    display: flex;
+    margin-left: 130px;
+   margin-top: 140px;
+ }
+ /*container two starts here */
+ .container2{
+  width: 100%;
+  height: 1395px;
+  background-color: #FFFBF0;
+  display: flex;
+  flex-direction: column;
+ }
+ .write-image{
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+ }
+ .write-up2{
+  width: 100%;
+  height: 500px;
+  background-color: green;
+ }
